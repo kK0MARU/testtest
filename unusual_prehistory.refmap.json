@@ -1,0 +1,36 @@
+{
+  "mappings": {
+    "com/barlinc/unusual_prehistory/mixins/LivingEntityMixin": {
+      "defineSynchedData": "Lnet/minecraft/world/entity/LivingEntity;m_8097_()V"
+    },
+    "com/barlinc/unusual_prehistory/mixins/StructureTemplateAccessor": {
+      "entityInfoList": "f_74483_:Ljava/util/List;",
+      "palettes": "f_74482_:Ljava/util/List;"
+    },
+    "com/barlinc/unusual_prehistory/mixins/client/EntityRenderDispatcherMixin": {
+      "renderHitbox": "Lnet/minecraft/client/renderer/entity/EntityRenderDispatcher;m_114441_(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;Lnet/minecraft/world/entity/Entity;F)V"
+    },
+    "com/barlinc/unusual_prehistory/mixins/SweetBerryBushBlockMixin": {
+      "Lnet/minecraft/world/entity/Entity;getType()Lnet/minecraft/world/entity/EntityType;": "Lnet/minecraft/world/entity/Entity;m_6095_()Lnet/minecraft/world/entity/EntityType;",
+      "entityInside": "Lnet/minecraft/world/level/block/SweetBerryBushBlock;m_7892_(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/Entity;)V"
+    }
+  },
+  "data": {
+    "searge": {
+      "com/barlinc/unusual_prehistory/mixins/LivingEntityMixin": {
+        "defineSynchedData": "Lnet/minecraft/world/entity/LivingEntity;m_8097_()V"
+      },
+      "com/barlinc/unusual_prehistory/mixins/StructureTemplateAccessor": {
+        "entityInfoList": "f_74483_:Ljava/util/List;",
+        "palettes": "f_74482_:Ljava/util/List;"
+      },
+      "com/barlinc/unusual_prehistory/mixins/client/EntityRenderDispatcherMixin": {
+        "renderHitbox": "Lnet/minecraft/client/renderer/entity/EntityRenderDispatcher;m_114441_(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;Lnet/minecraft/world/entity/Entity;F)V"
+      },
+      "com/barlinc/unusual_prehistory/mixins/SweetBerryBushBlockMixin": {
+        "Lnet/minecraft/world/entity/Entity;getType()Lnet/minecraft/world/entity/EntityType;": "Lnet/minecraft/world/entity/Entity;m_6095_()Lnet/minecraft/world/entity/EntityType;",
+        "entityInside": "Lnet/minecraft/world/level/block/SweetBerryBushBlock;m_7892_(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/Entity;)V"
+      }
+    }
+  }
+}

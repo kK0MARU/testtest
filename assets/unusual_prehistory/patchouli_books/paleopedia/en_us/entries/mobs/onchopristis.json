@@ -1,0 +1,48 @@
+{
+  "name": "Onchopristis",
+  "icon": "unusual_prehistory:textures/gui/paleopedia/icons/onchopristis.png",
+  "category": "unusual_prehistory:mobs",
+  "advancement": "unusual_prehistory:revive_onchopristis",
+  "extra_recipe_mappings": {
+    "unusual_prehistory:saw_fossil": 0,
+    "unusual_prehistory:onchopristis_sac": 0,
+    "unusual_prehistory:onchopristis_spawn_egg": 0
+  },
+  "pages": [
+    {
+      "type": "unusual_prehistory:mob_entry_1",
+      "display_name": "Onchopristis",
+      "id": "onchopristis",
+      "flavor_text": "barb-saw",
+      "fossil_item": "unusual_prehistory:saw_fossil",
+      "egg_item": "unusual_prehistory:onchopristis_sac",
+      "variant_key": "",
+      "image_tooltip": "Barb-bearing sawskates of the Cretaceous sediment"
+    },
+    {
+      "id": "onchopristis",
+      "type": "unusual_prehistory:mob_entry_2",
+
+      "era_image": "late_cretaceous",
+      "era_tooltip_period": "Late Cretaceous Period",
+
+      "temperament.temperament_type": "neutral",
+
+      "clone.clone_type": "aquatic_egg",
+      "clone.clone_tooltip_heading": "Aquatic Egg",
+      "clone.clone_tooltip": "Egg must be placed underwater to hatch",
+
+      "activity.activity_type": "sleepless",  
+      "activity.activity_tooltip": "Does not sleep",
+
+      "feature_1.item": "minecraft:coarse_dirt",
+      "feature_1.tooltip": "§7Onchopristis live at the bottom of bodies of water and will often bury themselves in the sediment",
+      "feature_1.title_two_line": "Scales in the Soil",
+
+      "feature_2.item": "minecraft:redstone_block",
+      "feature_2.tooltip": "§7If stepped on while buried, they will spring into a toothy attack",
+      "feature_2.title_one_line": "I Saw That!",
+      "feature_2.title_two_line": ""
+    }
+  ]
+}

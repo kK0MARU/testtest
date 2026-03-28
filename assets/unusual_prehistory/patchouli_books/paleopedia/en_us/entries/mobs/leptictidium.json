@@ -1,0 +1,49 @@
+{
+  "name": "Leptictidium",
+  "icon": "unusual_prehistory:textures/gui/paleopedia/icons/leptictidium.png",
+  "category": "unusual_prehistory:mobs",
+  "advancement": "unusual_prehistory:revive_leptictidium",
+  "extra_recipe_mappings": {
+    "unusual_prehistory:trunk_mouse_fossil": 0,
+    "unusual_prehistory:leptictidium_embryo": 0,
+    "unusual_prehistory:leptictidium_spawn_egg": 0
+  },
+  "pages": [
+    {
+      "type": "unusual_prehistory:mob_entry_1",
+      "display_name": "Leptictidium",
+      "id": "leptictidium",
+      "flavor_text": "graceful-weasel",
+      "fossil_item": "unusual_prehistory:trunk_mouse_fossil",
+      "egg_item": "unusual_prehistory:leptictidium_embryo",
+      "variant_key": "",
+      "image_tooltip": "Hailing from Eocene Europe, long-legged Leptictidium laces nearby life with lingering potion effects, leaving creatures hopping mad"
+    },
+    {
+      "id": "leptictidium",
+      "type": "unusual_prehistory:mob_entry_2",
+
+      "era_image": "early_cenozoic",
+      "era_tooltip_period": "Early Cenozoic Period",
+
+      "temperament.temperament_type": "passive",
+
+      "clone.clone_type": "embryo",
+      "clone.clone_tooltip_heading": "Embryo",
+      "clone.clone_tooltip": "Embryo must be placed in §aLiving Ooze§r §7to gestate",
+
+      "activity.activity_type": "sleepless",  
+      "activity.activity_tooltip": "Does not sleep",
+
+      "feature_1.item": "minecraft:spider_eye",
+      "feature_1.tooltip": "§7Leptictidium will prey on any and all arthropods, regardless of size",
+      "feature_1.title_one_line": "Pest Control",
+      "feature_1.title_two_line": "",
+
+      "feature_2.item": "minecraft:splash_potion{Potion:\"minecraft:awkward\"}",
+      "feature_2.tooltip": "§7They will carry and spread potion effects to other mobs",
+      "feature_2.title_one_line": "Plague Rats",
+      "feature_2.title_two_line": ""
+    }
+  ]
+}

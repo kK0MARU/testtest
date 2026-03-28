@@ -1,0 +1,22 @@
+{
+	"texture_size": [32, 32],
+	"textures": {
+		"egg": "unusual_prehistory:block/lystrosaurus_egg_very_cracked",
+		"particle": "unusual_prehistory:block/lystrosaurus_egg_particle"
+	},
+	"elements": [
+		{
+			"from": [5, 0, 5],
+			"to": [11, 6, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 3, 8]},
+			"faces": {
+				"north": {"uv": [3, 3, 6, 6], "texture": "#egg"},
+				"east": {"uv": [0, 3, 3, 6], "texture": "#egg"},
+				"south": {"uv": [9, 3, 12, 6], "texture": "#egg"},
+				"west": {"uv": [6, 3, 9, 6], "texture": "#egg"},
+				"up": {"uv": [6, 3, 3, 0], "texture": "#egg"},
+				"down": {"uv": [9, 0, 6, 3], "texture": "#egg"}
+			}
+		}
+	]
+}

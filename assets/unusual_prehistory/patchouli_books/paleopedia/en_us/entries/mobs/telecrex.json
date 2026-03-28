@@ -1,0 +1,48 @@
+{
+  "name": "Telecrex",
+  "icon": "unusual_prehistory:textures/gui/paleopedia/icons/telecrex.png",
+  "category": "unusual_prehistory:mobs",
+  "advancement": "unusual_prehistory:revive_telecrex",
+  "extra_recipe_mappings": {
+    "unusual_prehistory:plumage_fossil": 0,
+    "unusual_prehistory:telecrex_egg": 0,
+    "unusual_prehistory:telecrex_spawn_egg": 0
+  },
+  "pages": [
+    {
+      "type": "unusual_prehistory:mob_entry_1",
+      "display_name": "Telecrex",
+      "id": "telecrex",
+      "flavor_text": "far-crake",
+      "fossil_item": "unusual_prehistory:plumage_fossil",
+      "egg_item": "unusual_prehistory:telecrex_egg",
+      "variant_key": "",
+      "image_tooltip": "Fossilised fowl known from a single bone"
+    },
+    {
+      "id": "telecrex",
+      "type": "unusual_prehistory:mob_entry_2",
+
+      "era_image": "early_cenozoic",
+      "era_tooltip_period": "Early Cenozoic Period",
+
+      "temperament.temperament_type": "passive",
+
+      "clone.clone_type": "projectile_egg",
+      "clone.clone_tooltip_heading": "Projectile Egg",
+      "clone.clone_tooltip": "Egg must be thrown to hatch",
+
+      "activity.activity_type": "cathemeral",
+      "activity.activity_tooltip": "Active randomly throughout the day or based on specific factors",
+
+      "feature_1.item": "minecraft:feather",
+      "feature_1.tooltip": "§7Telecrex are skittish birds, fleeing from any perceived threats, including players",
+      "feature_1.title_one_line": "Fight or Flight?",
+      "feature_1.title_two_line": "",
+
+      "feature_2.item": "minecraft:glass",
+      "feature_2.tooltip": "§7May occasionally fly face-first into walls or windows",
+      "feature_2.title_two_line": "Faceplanting Fowl"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "name": "Kentrosaurus",
+  "icon": "unusual_prehistory:textures/gui/paleopedia/icons/kentrosaurus.png",
+  "category": "unusual_prehistory:mobs",
+  "advancement": "unusual_prehistory:revive_kentrosaurus",
+  "extra_recipe_mappings": {
+    "unusual_prehistory:prickly_fossil": 0,
+    "unusual_prehistory:kentrosaurus_egg": 0,
+    "unusual_prehistory:kentrosaurus_spawn_egg": 0
+  },
+  "pages": [
+    {
+      "type": "unusual_prehistory:mob_entry_1",
+      "display_name": "Kentrosaurus",
+      "id": "kentrosaurus",
+      "flavor_text": "prickle-lizard",
+      "fossil_item": "unusual_prehistory:prickly_fossil",
+      "egg_item": "unusual_prehistory:kentrosaurus_egg",
+      "variant_key": "",
+      "image_tooltip": "A prickly plant-eater and protector of all that is- OUCH."
+    },
+    {
+      "id": "kentrosaurus",
+      "type": "unusual_prehistory:mob_entry_2",
+
+      "era_image": "late_jurassic",
+      "era_tooltip_period": "Late Jurassic Period",
+
+      "temperament.temperament_type": "neutral",
+
+      "clone.clone_type": "nest_egg",
+      "clone.clone_tooltip_heading": "Nest Egg",
+      "clone.clone_tooltip": "Egg must be placed down to hatch",
+
+      "activity.activity_type": "diurnal",
+      "activity.activity_tooltip": "Active during the day",
+
+      "feature_1.item": "tag:unusual_prehistory:guarded_by_kentrosaurus",
+      "feature_1.tooltip": "§7Kentrosaurus is protective of prickly blocks near it, and will attack players who break them",
+      "feature_1.title_one_line": "Cactus-coded",
+
+      "feature_2.item": "minecraft:chainmail_chestplate{Enchantments:[{id:thorns,lvl:1}]}",
+      "feature_2.tooltip": "§7Those who cover themselves in thorns will find themselves under kentrosaurus' protection",
+      "feature_2.title_two_line": "Friend of the Thorny"
+    }
+  ]
+}

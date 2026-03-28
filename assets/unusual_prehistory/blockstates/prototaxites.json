@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "axis=x": [
+      {
+        "model": "unusual_prehistory:block/prototaxites",
+        "x": 90,
+        "y": 90
+      },
+      {
+        "model": "unusual_prehistory:block/warty_prototaxites",
+        "x": 90,
+        "y": 90
+      }
+    ],
+    "axis=y": [
+      {
+        "model": "unusual_prehistory:block/prototaxites"
+      },
+      {
+        "model": "unusual_prehistory:block/warty_prototaxites"
+      }
+    ],
+    "axis=z": [
+      {
+        "model": "unusual_prehistory:block/prototaxites",
+        "x": 90
+      },
+      {
+        "model": "unusual_prehistory:block/warty_prototaxites",
+        "x": 90
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "parent": "unusual_prehistory:jurassic_root",
+  "criteria": {
+    "revive_kentrosaurus": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "unusual_prehistory:kentrosaurus"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:summoned_entity"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancement.unusual_prehistory.revive_kentrosaurus.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "unusual_prehistory:kentrosaurus_egg"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancement.unusual_prehistory.revive_kentrosaurus"
+    }
+  },
+  "requirements": [
+    [
+      "revive_kentrosaurus"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

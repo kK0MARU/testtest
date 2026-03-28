@@ -1,0 +1,40 @@
+{
+  "parent": "unusual_prehistory:cenozoic_root",
+  "criteria": {
+    "revive_telecrex": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "unusual_prehistory:telecrex"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:summoned_entity"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancement.unusual_prehistory.revive_telecrex.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "unusual_prehistory:telecrex_egg"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancement.unusual_prehistory.revive_telecrex"
+    }
+  },
+  "requirements": [
+    [
+      "revive_telecrex"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

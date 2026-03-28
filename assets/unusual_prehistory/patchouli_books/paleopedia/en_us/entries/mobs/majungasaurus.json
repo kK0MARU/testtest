@@ -1,0 +1,48 @@
+{
+  "name": "Majungasaurus",
+  "icon": "unusual_prehistory:textures/gui/paleopedia/icons/majungasaurus.png",
+  "category": "unusual_prehistory:mobs",
+  "advancement": "unusual_prehistory:revive_majungasaurus",
+  "extra_recipe_mappings": {
+    "unusual_prehistory:rugose_fossil": 0,
+    "unusual_prehistory:majungasaurus_egg": 0,
+    "unusual_prehistory:majungasaurus_spawn_egg": 0
+  },
+  "pages": [
+    {
+      "type": "unusual_prehistory:mob_entry_1",
+      "display_name": "Majungasaurus",
+      "id": "majungasaurus",
+      "flavor_text": "Mahajanga-lizard",
+      "fossil_item": "unusual_prehistory:rugose_fossil",
+      "egg_item": "unusual_prehistory:majungasaurus_egg",
+      "variant_key": "",
+      "image_tooltip": "The cannibalistic carnivorous chameleon of the late Jurassic, the abelisaur Majungasaurus uses its ability of metachrosis to stalk prey while being virtually invisible"
+    },
+    {
+      "id": "majungasaurus",
+      "type": "unusual_prehistory:mob_entry_2",
+
+      "era_image": "late_cretaceous",
+      "era_tooltip_period": "Late Cretaceous Period",
+
+      "temperament.temperament_type": "hostile",
+
+      "clone.clone_type": "nest_egg",
+      "clone.clone_tooltip_heading": "Nest Egg",
+      "clone.clone_tooltip": "Egg must be placed down to hatch",
+
+      "activity.activity_type": "nocturnal",
+      "activity.activity_tooltip": "Active during the night",
+
+      "feature_1.item": "minecraft:glass",
+      "feature_1.tooltip": "§7With skin like a chameleon, they remain hidden until just before they strike their prey or hide from larger predators",
+      "feature_1.title_two_line": "The Invisible Man",
+
+      "feature_2.item": "minecraft:iron_axe",
+      "feature_2.tooltip": "§7These dinosaurs are known to eat younger members of their species",
+      "feature_2.title_one_line": "Kids Meal",
+      "feature_2.title_two_line": ""
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": [
+      {
+        "model": "unusual_prehistory:block/manipulator_ootheca"
+      }
+    ],
+    "facing=west": [
+      {
+        "model": "unusual_prehistory:block/manipulator_ootheca",
+        "y": 90
+      }
+    ],
+    "facing=south": [
+      {
+        "model": "unusual_prehistory:block/manipulator_ootheca",
+        "y": 180
+      }
+    ],
+    "facing=east": [
+      {
+        "model": "unusual_prehistory:block/manipulator_ootheca",
+        "y": 270
+      }
+    ]
+  }
+}
